@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  niboofx.server:
+    image: ${DOCKER_REGISTRY-}niboofx
+    build:
+      context: .
+      dockerfile: NiboOfx/Server/Dockerfile
