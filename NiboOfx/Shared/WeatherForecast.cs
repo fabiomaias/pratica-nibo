@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace teste_blazor.Shared
+namespace NiboOfx.Shared
 {
     public class WeatherForecast
     {
